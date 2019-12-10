@@ -72,6 +72,7 @@ class _VideoAppState extends State<VideoApp> {
           children: <Widget>[
             Container(
               //width: MediaQuery.of(context).size.width,
+              //
               child: Center(
                 child: _controller != null
                     ? YoutubePlayer(
